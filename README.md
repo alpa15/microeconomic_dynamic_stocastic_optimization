@@ -11,12 +11,14 @@ This repo has been developed with the aim of applying the concepts of [Dynamic P
     <img src="media/optimization_function.PNG" width="350">
 </p>
 The function is composed of six terms:
-- W<sup>(lj)</sup><sub>t+1</sub>, the money available in the scenario *l* and in the working condition *j*;
-- v<sub>t+1,j</sub>, the value function at the time *t+1* and in the working condition *j*;
-- &pi;<sub>ij</sub>, the probability of passing from a working condition *i* to a working condition *j*;
-- q<sub>l</sub>, the weight given to the rate estimated;
-- &gamma;, the risk aversion;
-- u(C<sub>t</sub>), the utility function of the money used C<sub>t</sub>, so it means how greatful is spending the money C<sub>t</sub> in the period of time *t*.
+<ul>
+  <li>W<sup>(lj)</sup><sub>t+1</sub>, the money available in the scenario <i>l</i> and in the working condition <i>j</i>;</li>
+  <li>v<sub>t+1,j</sub>, the value function at the time <i>t+1</i> and in the working condition <i>j</i>;</li>
+  <li>&pi;<sub>ij</sub>, the probability of passing from a working condition <i>i</i> to a working condition <i>j</i>;</li>
+  <li>q<sub>l</sub>, the weight given to the rate estimated;</li>
+  <li>&gamma;, the risk aversion;</li>
+  <li>u(C<sub>t</sub>), the utility function of the money used C<sub>t</sub>, so it means how greatful is spending the money C<sub>t</sub> in the period of time <i>t</i>.</li>
+</ul>
 
 The term W<sup>(lj)</sup><sub>t+1</sub> can be defined as:
 <p align="center">
